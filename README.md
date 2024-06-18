@@ -3,7 +3,7 @@ Rasterization Basics
 
 ### Using Eigen
 
-ITo simplify the code, I used [Eigen](http://eigen.tuxfamily.org/).
+To simplify the code, I used [Eigen](http://eigen.tuxfamily.org/).
 
 Ex.1: Load and Render a 3D model
 ------------------
