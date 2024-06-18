@@ -1,8 +1,8 @@
 cmake_minimum_required(VERSION 3.1)
-project(assignment5)
+project(StanfordBunny)
 
 # Project sources
-add_executable("assignment5"
+add_executable("StanfordBunny"
 	src/main.cpp
 	src/raster.h
 	src/raster.cpp
@@ -20,19 +20,6 @@ set_target_properties(${PROJECT_NAME} PROPERTIES RUNTIME_OUTPUT_DIRECTORY "${CMA
 # Folder where data files are stored (meshes & stuff)
 set(DATA_DIR "${CMAKE_CURRENT_SOURCE_DIR}/data/")
 target_compile_definitions(${PROJECT_NAME} PUBLIC -DDATA_DIR=\"${DATA_DIR}\")
-
-################################
-################################
-# Examples
-################################
-################################
-
-# Project sources
-add_executable("examples"
-	examples/main.cpp
-	examples/raster.h
-	examples/raster.cpp
-)
 
 # Include Eigen for linear algebra
 target_include_directories(examples SYSTEM PUBLIC "${CMAKE_CURRENT_SOURCE_DIR}/../ext/eigen" "${CMAKE_CURRENT_SOURCE_DIR}/../ext/gif-h" "${CMAKE_CURRENT_SOURCE_DIR}/../ext/stb")
