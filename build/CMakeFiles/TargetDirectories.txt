@@ -1,0 +1,4 @@
+/home/colegilson/School/CSC305/CG-Spring-2024-main/CG-Spring-2024-main/Assignment_5/build/CMakeFiles/rebuild_cache.dir
+/home/colegilson/School/CSC305/CG-Spring-2024-main/CG-Spring-2024-main/Assignment_5/build/CMakeFiles/edit_cache.dir
+/home/colegilson/School/CSC305/CG-Spring-2024-main/CG-Spring-2024-main/Assignment_5/build/CMakeFiles/examples.dir
+/home/colegilson/School/CSC305/CG-Spring-2024-main/CG-Spring-2024-main/Assignment_5/build/CMakeFiles/assignment5.dir
